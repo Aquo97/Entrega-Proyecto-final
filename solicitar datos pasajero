@@ -1,0 +1,6 @@
+def solicitar_datos_pasajero():
+    nombre = str(input("ingrese el nombre del pasajero: "))
+    rut = int(input("ingrese rut del pasajero: "))
+    telefono = int(input("ingrese el telefono del pasajero: "))
+    banco = str(input("ingrese el banco del pasajero: "))
+print(solicitar_datos_pasajero())
