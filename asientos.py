@@ -1,11 +1,10 @@
 import numpy as np
 
 def asientos():
- asientos = np.zeros((5,6))
- asientosVip = np.zeros((2,6))
-   
+    
+ arreglo = np.arange(1, 43)
+ matriz = arreglo.reshape(7, 6)
 
- print(asientos)
- print("  -------VIP------")
- print(asientosVip)
- return
+ print(matriz)
+
+asientos()
